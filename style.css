@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: lightgray;
+}
+
+h1 {
+    color: blue;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+    height: 180px;
+}
+
+p {
+    font-weight: bold;
+}
